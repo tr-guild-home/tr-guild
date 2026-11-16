@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>구라 — 테일즈런너 길드</title>
+<meta name="description" content="테일즈런너 길드 구라의 아기자기한 공간">
+<style>
+:root{--pink:#f7cbd8;--pink2:#ffe8ee;--cream:#fffaf3;--ink:#51454b;--purple:#ded8f5;--blue:#d9edf4;--line:#eadde0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+header{position:sticky;top:0;z-index:5;background:#fffaf3eF;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{max-width:1050px;margin:auto;padding:13px 22px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.brand{font-weight:900;letter-spacing:3px;color:#c77996;font-size:21px;text-decoration:none}
+nav{display:flex;gap:17px;flex-wrap:wrap}nav a{color:#77656d;text-decoration:none;font-size:13px;font-weight:700}nav a:hover{color:#c77996}
+main{max-width:1050px;margin:auto;padding:28px 22px 70px}
+.hero{position:relative;overflow:hidden;text-align:center;padding:78px 20px 66px;border:2px solid white;border-radius:30px;background:linear-gradient(135deg,#ffe5ed,#f8eafa 55%,#e8f4f7);box-shadow:0 12px 35px #b58c9a1c}
+.hero:before,.hero:after{content:"✿";position:absolute;color:#fff;font-size:70px;opacity:.8}.hero:before{left:7%;top:14%}.hero:after{right:8%;bottom:12%;font-size:55px}
+.tag{display:inline-block;background:#ffffffb8;border:1px solid white;border-radius:99px;padding:7px 14px;font-size:12px;letter-spacing:1px}
+h1{font-size:clamp(48px,9vw,82px);line-height:1;margin:19px 0 12px;color:#c77996;letter-spacing:5px;text-shadow:3px 4px 0 #fff}
+.hero p{margin:0;color:#76636c;font-size:15px;line-height:1.8}
+.buttons{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:25px}
+.btn{display:inline-block;padding:11px 18px;border-radius:99px;background:#fff;color:#a96582;text-decoration:none;font-weight:800;font-size:13px;border:1px solid white}.btn.alt{background:#d9edf4;color:#557b88}
+.doodles{margin-top:22px;font-size:20px;letter-spacing:12px;color:#c28ba2}
+section{margin-top:34px;scroll-margin-top:85px}
+.section-title{text-align:center;margin-bottom:17px}.section-title small{color:#c77996;font-weight:800;letter-spacing:2px}.section-title h2{margin:5px 0;font-size:25px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.card{background:white;border:1px solid var(--line);border-radius:20px;padding:21px;box-shadow:0 7px 20px #b58c9a0d}
+.card .icon{font-size:25px}.card h3{margin:9px 0 7px;font-size:17px}.card p,.card li{font-size:13px;line-height:1.8;color:#786b70}
+.notice{background:#fff;border:1px dashed #e7b8c8;border-radius:18px;padding:20px}
+.notice p{font-size:14px;line-height:1.9;margin:7px 0}
+.pill{display:inline-block;background:var(--pink2);color:#b56e88;border-radius:99px;padding:5px 10px;font-size:11px;font-weight:800}
+.member-list{display:flex;gap:9px;flex-wrap:wrap}.member{background:#f7edf8;border-radius:99px;padding:9px 14px;font-size:13px}
+footer{text-align:center;padding:30px 15px;color:#a18e96;font-size:12px;border-top:1px solid var(--line)}
+@media(max-width:700px){.nav{align-items:flex-start;flex-direction:column}nav{gap:12px}.grid{grid-template-columns:1fr}.hero{padding:65px 15px 55px}.hero:before{left:3%;font-size:45px}.hero:after{right:4%;font-size:40px}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<a class="brand" href="#home">구라 ♡</a>
+<nav><a href="#about">길드 소개</a><a href="#notice">공지사항</a><a href="#members">길드원</a><a href="#rule">길드 규칙</a><a href="#activity">길드 활동</a><a href="#gallery">갤러리</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home">
+<span class="tag">TALES RUNNER GUILD · SINCE 20XX</span>
+<h1>구라</h1>
+<p>어서 와, 구라 길드에!<br>함께 달리고 웃으며 추억을 쌓는 우리들의 작은 공간 ♡</p>
+<div class="buttons"><a class="btn" href="#about">길드 알아보기 ✿</a><a class="btn alt" href="#notice">공지 확인하기</a></div>
+<div class="doodles">♡ ✦ ♡ ✧ ♡</div>
+</section>
+
+<section id="about">
+<div class="section-title"><small>ABOUT US</small><h2>💌 구라 길드 소개</h2></div>
+<div class="card"><p>안녕하세요! 테일즈런너 길드 <b>구라</b>입니다. 편하게 함께 게임하고 즐거운 추억을 만들어 가요. 아래 소개 문구는 길드 분위기에 맞게 수정할 수 있어요.</p></div>
+</section>
+
+<section id="notice">
+<div class="section-title"><small>NOTICE</small><h2>📢 공지사항</h2></div>
+<div class="notice"><span class="pill">WELCOME</span><p><b>구라 길드 홈페이지에 오신 걸 환영합니다!</b><br>새로운 공지사항은 관리자가 이 부분을 수정해서 올리면 돼요.</p></div>
+</section>
+
+<section id="members">
+<div class="section-title"><small>MEMBERS</small><h2>👥 길드원 소개</h2></div>
+<div class="card"><p>길드원 닉네임과 직책을 여기에 추가해 주세요.</p><div class="member-list"><span class="member">길드장</span><span class="member">운영진</span><span class="member">길드원</span></div></div>
+</section>
+
+<section id="rule">
+<div class="section-title"><small>GUILD RULE</small><h2>📜 길드 규칙</h2></div>
+<div class="grid">
+<div class="card"><div class="icon">🌷</div><h3>서로 존중하기</h3><p>기분 좋은 길드 분위기를 위해 서로 배려해 주세요.</p></div>
+<div class="card"><div class="icon">💬</div><h3>즐거운 소통</h3><p>편안하고 자유롭게 이야기 나눠요.</p></div>
+<div class="card"><div class="icon">♡</div><h3>함께 즐기기</h3><p>부담 없이 각자의 속도로 길드 활동을 즐겨요.</p></div>
+</div>
+</section>
+
+<section id="activity">
+<div class="section-title"><small>ACTIVITY</small><h2>🏆 길드 활동</h2></div>
+<div class="grid">
+<div class="card"><div class="icon">📝</div><h3>길드 퀘스트</h3><p>길퀘는 자유롭게 참여!<br>보통 밤 10시 ~ 10시 30분</p></div>
+<div class="card"><div class="icon">🏅</div><h3>점령전</h3><p>자유롭게 참여 가능<br>매주 투표 진행</p></div>
+<div class="card"><div class="icon">🎮</div><h3>주요 플레이</h3><p>이벤트 · 종랜 등<br>길드원들과 함께 즐겨요.</p></div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="section-title"><small>GALLERY</small><h2>📸 구라 갤러리</h2></div>
+<div class="card"><p>길드 단체 스크린샷이나 추억이 담긴 사진을 이곳에 넣을 수 있어요. 사진을 보내주면 갤러리 형태로 배치해 줄게요.</p></div>
+</section>
+</main>
+<footer>구라 길드 ♡ · TALES RUNNER<br>우리의 즐거운 추억을 모으는 곳</footer>
+</body>
+</html>
